@@ -277,8 +277,29 @@ function CoverPage({ onEnter }: { onEnter: () => void }) {
             Индивидуальный проект
           </p>
           <p className="text-xs uppercase" style={{ fontFamily: "'IBM Plex Sans',sans-serif", letterSpacing: "0.22em", color: "rgba(255,255,255,0.22)" }}>
-            Обществознание · Психология · 10 класс · 2025–2026
+            Обществознание · Психология · 2025–2026
           </p>
+        </div>
+
+        {/* author block */}
+        <div className="flex flex-wrap gap-8">
+          <div>
+            <p className="text-xs uppercase mb-1" style={{ fontFamily: "'IBM Plex Sans',sans-serif", letterSpacing: "0.18em", color: "rgba(255,255,255,0.18)" }}>
+              Автор
+            </p>
+            <p className="text-base" style={{ fontFamily: "'Cormorant',serif", color: "rgba(255,255,255,0.7)", fontWeight: 400 }}>
+              Хисамова Даниела Ионовна
+            </p>
+          </div>
+          <div className="w-px self-stretch" style={{ backgroundColor: "rgba(255,255,255,0.07)" }} />
+          <div>
+            <p className="text-xs uppercase mb-1" style={{ fontFamily: "'IBM Plex Sans',sans-serif", letterSpacing: "0.18em", color: "rgba(255,255,255,0.18)" }}>
+              Класс
+            </p>
+            <p className="text-base" style={{ fontFamily: "'Cormorant',serif", color: "rgba(255,255,255,0.7)", fontWeight: 400 }}>
+              10 «А» класс
+            </p>
+          </div>
         </div>
 
         {/* rule */}
