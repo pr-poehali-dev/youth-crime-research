@@ -297,7 +297,16 @@ function CoverPage({ onEnter }: { onEnter: () => void }) {
               Класс
             </p>
             <p className="text-base" style={{ fontFamily: "'Cormorant',serif", color: "rgba(255,255,255,0.7)", fontWeight: 400 }}>
-              10 «А» класс
+              10 «А»
+            </p>
+          </div>
+          <div className="w-px self-stretch" style={{ backgroundColor: "rgba(255,255,255,0.07)" }} />
+          <div>
+            <p className="text-xs uppercase mb-1" style={{ fontFamily: "'IBM Plex Sans',sans-serif", letterSpacing: "0.18em", color: "rgba(255,255,255,0.18)" }}>
+              Руководитель
+            </p>
+            <p className="text-base" style={{ fontFamily: "'Cormorant',serif", color: "rgba(255,255,255,0.7)", fontWeight: 400 }}>
+              Ряков Евгений Евгеньевич
             </p>
           </div>
         </div>
